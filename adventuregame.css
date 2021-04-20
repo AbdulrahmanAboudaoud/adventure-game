@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+
+.div1{
+	width: 1200px;
+	margin: 0 auto; 
+	background-color: #DC143C; 
+	height: 630px;
+	position: relative;
+}
+
+#title{
+	position: absolute;
+	top: 25px;
+	left: 200px;
+	width: 800px;
+	height: 100px;
+	background-color: white;
+	background-image: url("images/foto1.png");
+	background-repeat: no-repeat; 
+    background-position: center;
+}
+
+#p1{
+	position: absolute;
+	top: 150px;
+	left: 300px;
+	width: 600px;
+	height: 120px;
+	background-color: white;
+	padding: 10px;
+}
+
+
+#div2{
+	position: absolute;
+	bottom: 120px;
+	left: 450px;
+	width: 350px;
+	height: 192px;
+	background-color: white;
+}
+
+#div3{
+	position: absolute; 
+	bottom: 50px;
+	left: 500px;
+	width: 300px;
+	background-color: white;
+	height: 50px;
+
+}
+
+#button4{
+	position: absolute;
+	bottom:100px;
+	left: 50px;
+	width:89px;
+	height:35px; 
+	background-image: url("images/key.png");
+    
+}
+
+button{
+	padding: 15px;
+	margin: 7px;
+	background-color: #DC143C;
+	width: 75px;
+	margin-right: 15px;
+	line-height: 5px;
+
+}
+
+
+#button1{
+	position: absolute;
+	left: 10px;
+}
+
+#button2{
+	position: absolute;
+	right: 100px;
+}
+
+#button3{
+	position: absolute;
+	right: 10px;
+}
+
+#restartButton{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	background-color: #228B22;
+}
+
+#p1{
+	white-space: pre-line;
+}
